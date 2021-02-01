@@ -1,0 +1,84 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.post {
+  min-height: 300px;
+  padding: 0 10px;
+  background: #120a8f;
+  margin-top: 20px;
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+}
+.post-wrapper {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.info-wrapper {
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-wrapper {
+  display: flex;
+  width: 310px;
+  justify-content: space-between;
+}
+.avatar {
+  cursor: pointer;
+  display: block;
+  width: 50px;
+}
+.avatar img {
+  display: block;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+}
+.img {
+  height: 215px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.img img {
+  border-radius: 12px;
+  width: 89%;
+}
+.name {
+  color: #ffffff;
+  font-weight: bold;
+}
+.nickname,
+.date {
+  color: gray;
+}
+.descr {
+  width: 100%;
+  color: #ffffff;
+  font-weight: 500;
+}
+.icons svg {
+  cursor: pointer;
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
+  color: #ffffff;
+}
+.icons {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.icons span {
+  margin-right: 10px;
+}
+.icons span:last-child {
+  margin: 0;
+}
